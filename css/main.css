@@ -1,0 +1,767 @@
+/* OVERALL STYLING */
+
+body{
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+  background-image: url(../img/retina_wood.png);
+  font-size: 1rem;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+/* HEADER*/
+header{
+  background-color: #151515;
+  overflow: hidden;
+  
+}
+
+header .col svg{
+  fill: #ffffff;
+  width: 15%;
+  padding: 10px 1.5rem;
+  display: inline-block;
+}
+
+header .col{
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+
+nav ul{
+  text-align: right;
+  padding: 0 2rem;
+  margin: 18px 0 0;
+}
+
+
+nav a i {
+  color: white;
+  margin: 0 2px 0 0;
+  font-size: 20px;
+}
+
+nav a .fa{
+    font-size: 1.5rem;
+  }
+
+@media screen and (min-width: 47.5em){
+
+  header{
+    background-image: url(../img/nami.png);
+  }
+
+  header .col svg{
+    display: inline-block;
+    float: left;
+    width: 10%;
+    margin: 1rem 5rem;
+  }
+
+  nav ul{
+    text-align: right;
+    margin: 1rem -4rem;
+    padding: 2rem;
+  }
+
+  nav a .fa{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 67.5em){
+  header .col svg{
+    width: 7%;
+    margin-bottom: 0;
+    margin-top: 1.2rem; 
+  }
+
+  nav a .fa{
+    font-size: 2.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER*/
+
+footer{
+  padding: 0 0 1rem;
+  text-align: center;
+  background-color: #151515;
+
+}
+
+.prefooter{
+  background-color: #212121;
+  overflow: hidden;
+  padding: 3%;
+}
+
+footer .prefooter svg{
+  fill: #ffffff;
+  width: 60%;
+  height: auto;
+  padding-top: 1rem;
+
+}
+
+footer .col{
+  text-align: left;
+  padding: 10px;
+}
+
+h4{ 
+  color: #fff; 
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+footer .col p{
+  font-size: 10px;
+  color: #dddddd;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.secondary-nav{
+  padding-right: 2rem;
+  margin: 1em .5rem;
+  list-style-type: none;
+
+}
+
+ .secondary-nav li{
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+.secondary-nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #dddddd;
+  }
+
+.social-links{
+  padding: 0;
+}
+
+.social-links li{
+  display: inline-block;
+  font-size: 3rem;
+  margin: 0 10px;
+}
+
+.social-links li a{
+color: #dddddd;
+}
+
+.copywrite{
+  color: #767676;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 47.5em){
+  footer{
+    text-align: left;
+    background-image: url(../img/nami.png);
+    padding: 7px;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  h4{ 
+    text-align: left;
+  }
+
+  footer .prefooter .col{
+    width: 20%;
+    float: left;
+    padding: 15px;
+  }
+
+  footer .prefooter{
+    background-image: url(../img/nami.png);
+  }
+
+  footer .prefooter svg{
+    width: 70%;
+  }
+
+  .secondary-nav{
+    padding: 0 2rem 0 0;
+    margin: 1rem 0;
+  }
+
+  .secondary-nav a{
+    font-size: 12px;
+  }
+
+  .copywrite{
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .social-links li{
+    margin: 0;
+  }
+
+  .social-links ul{
+    margin: 0;
+  }
+
+  .social-links i{
+    font-size: 2.5rem;
+    margin: 0 3px;
+  }
+}
+
+@media screen and (min-width: 67.5rem){
+  footer .prefooter .col{
+    padding: 25px;
+  }
+}
+
+
+
+/* TIP 1 PAGE */
+
+.content{
+  background: transparent;
+  overflow: hidden;
+  margin: 1.5rem auto;
+  width: 80%;
+}
+
+.content .wrapper{
+  box-shadow: 0 0 20px rgba(0,0,0,.6);
+  border: #767676 solid 1px;
+  background-color: white;
+  margin: auto;
+  padding: 1rem 1rem 0;
+}
+
+.content .intro{
+  width: 80%;
+}
+
+.content h1{
+  font-family: 'Passion One', cursive;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #212121;
+  margin-top: .5rem;
+}
+
+.content h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.70)
+
+}
+
+.content p{ 
+  color: #212121;
+  padding-bottom: 9px;
+}
+
+ .content p:nth-child(2){
+  color: #767676;
+  font-size: 12px;
+}
+
+.content .col{
+  padding: 1rem 0 1rem 0;
+}
+
+.content .col:nth-child(2){
+  border-bottom:#767676 solid 1px;
+}
+
+.steps{
+  padding-top: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.steps #step-1{
+  border: #767676 solid 1px;
+  box-shadow:-5px 5px 4px rgba(0, 0, 0, 0.20);
+  background-image: url(../img/linedpaper.png);
+  margin-bottom: 1rem;
+}
+
+.steps #step-2{
+  border: #767676 solid 1px;
+  box-shadow:-5px 5px 4px rgba(0, 0, 0, 0.20);
+  background-image: url(../img/linedpaper.png);
+  margin-bottom: 1rem;
+}
+
+.steps #step-3{
+  border: #767676 solid 1px;
+  box-shadow:-5px 5px 4px rgba(0, 0, 0, 0.20);
+  background-image: url(../img/linedpaper.png);
+  margin-bottom: 1rem;
+}
+
+.steps #step-4{
+  border: #767676 solid 1px;
+  box-shadow:-5px 5px 4px rgba(0, 0, 0, 0.20);
+  background-image: url(../img/linedpaper.png);
+  margin-bottom: 1rem;
+}
+
+.steps h2{
+  font-family: 'Passion One', cursive;
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0 1rem 0 1rem;
+  float: left;
+}
+
+.steps p{
+  padding: 1rem;
+  margin: 0;
+  line-height: 24px;
+}
+
+.steps img{
+  width: 60%;
+  border-radius: 5px;
+  margin: 1rem 20% 1rem;
+  box-shadow: -3px 3px 2px rgba(0, 0, 0, 0.60);
+  border: #fff solid 2px;
+}
+
+.notes{
+  position: relative;  
+  margin: 1rem 0;
+  padding-top: 1rem;   
+  font-family: 'Indie Flower', cursive;
+  font-size: 1rem;      
+  display: inline-block; 
+  background-color: #ffff88;   
+  border:1px solid;  
+  box-shadow:0px 5px 5px rgba(0, 0, 0, 0.40);  
+}
+
+.notes h2{
+  font-family:'Indie Flower', cursive;
+  color: #000;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.notes ul{
+  top: 12%;
+  z-index: 2;
+  margin: 5px;
+}
+
+.notes p{
+  padding-bottom: 0;
+}
+
+.page-nav{
+  overflow: hidden;
+  background-color: #212121;
+  box-shadow: 0px 0px 3px #000;
+  border-radius: 20px;
+}
+
+
+.page-nav ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+  }
+
+.page-nav .left{
+  display: inline-block;
+  margin: 1rem 1rem;
+}
+
+.page-nav .right{
+  display: inline-block;
+  margin: 1rem;
+}
+
+.page-nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 4rem;
+}
+
+.page-nav ul:hover{
+  background-color: #c92038;
+  box-shadow: inset 10px 10px 10px #831524; 
+}
+
+
+
+@media screen and (min-width: 37.5em){
+  .content{
+    padding: 0 1rem;
+  }
+
+  .content .intro{
+    margin: auto;
+  }
+
+  .content .wrapper{
+    padding: 1rem 2.5rem;
+    overflow: hidden;
+  }
+
+  .content h1{
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+
+  .content h2{
+    font-size: 1.3rem;
+    padding-left: 1rem;
+  }
+
+  .content .col{
+    padding: 0;
+    width: 100%;
+  }
+
+  .content .col:nth-child(2){
+    border: none;
+  }
+
+  .col:nth-child(3){
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .content .col p{
+    margin-left: 1rem;
+    padding-right: 2rem;
+  }
+
+  .content p:nth-child(2){
+    font-size: 14px;
+  }
+
+  .content .steps{
+    width: 47%;
+    padding: 2rem 0 0 0;
+    float: left;
+    margin-left: 5%;
+  }
+
+  .steps:nth-child(1) {
+    margin: 0;
+  }
+
+  .steps:nth-child(3) {
+    clear: left;
+    margin: 0;
+  }
+  
+  .steps #step-1{
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .steps #step-2{
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .steps #step-3{
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .steps #step-4{
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .steps h2{
+    font-size: 4rem;
+  }
+
+  
+}
+
+
+
+
+@media screen and (min-width: 57.5em){
+  .content h1{
+    font-size: 4rem;
+  }
+
+  .content h2{
+    padding: 8px 8px 8px 1rem;
+  }
+
+  .content .col{
+    float: left;
+  }
+
+  .content .col:nth-child(2){
+    width: 58%;
+  }
+
+  .content .col:nth-child(3){
+    padding-left: 0;
+    width: 42%;
+    padding-bottom: 1rem;
+  }
+
+  .content .col p{
+    padding-right: 1rem;
+    border-right: #767676 solid 1px;
+    margin: 0 1rem;
+  }
+
+  .content .steps{
+    padding: 0;
+    width: 85%;
+    margin-left: 20%;
+  }
+
+  .steps #step-1{
+    position: absolute;
+    height: 30rem;
+    left: 5%;
+    top: 25%;
+  }
+
+  .steps #step-2{
+    position: absolute;
+    height: 30rem;
+    left: 15%;
+    top: 34%;
+  }
+
+  .steps #step-3{
+    position: absolute;
+    height: 30rem;
+    left: 7%;
+    top: 42%;
+  }
+
+  .steps #step-4{
+    position: absolute;
+    height: 30rem;
+    left: 17%;
+    top: 49%;
+  }
+
+  .steps h2{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 6rem;
+  }
+
+  .steps img{
+    width: 11rem;
+    margin: 0;
+    position: absolute;
+    right: 10%;
+  }
+
+  #step-1 img, #step-3 img{
+    background-color: #fff;
+    box-shadow: 0 0 40px #000;
+    position: absolute;
+    left: 73%;
+    box-sizing: border-box;
+    transform: rotate(15deg);
+    padding: 6px;
+  }
+
+  #step-2 img, #step-4 img{
+    background-color: #fff;
+    box-shadow: 0 0 20px #000;
+    position: absolute;
+    left: 73%;
+    box-sizing: border-box;
+    transform: rotate(345deg);
+    padding: 6px;
+  }
+
+  #step-1 p, #step-3 p{
+    width: 60%;
+    margin: 41px 10% 0;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  #step-2 p, #step-4 p{
+    width: 60%;
+    margin: 41px 10% 0;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .notes{
+    line-height: 1.3em;
+    z-index: 3; 
+    width: 60%;   
+    margin: 100% 25px 25px;
+    min-height:250px;
+    padding-top:35px;   
+    font-size:22px;      
+    display: inline-block;
+  }
+
+  .notes h2{
+    font-size: 2rem;
+    margin: -1rem 0 0;
+  }
+
+  .notes ul{
+      top: 9%;
+      width: 95%;
+    }
+
+  ul #tip-1, ul{
+    width: 90%;
+  }
+
+  ul #tip-2{
+    width: 90%;
+  }
+
+  ul #tip-3{
+    width: 90%;
+  }
+
+  ul #tip-4{
+    width: 90%;
+  }
+  
+  .page-nav{
+    width: 80%;
+    margin: auto;
+    height: 10%;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+  }
+
+  .page-nav ul{
+    margin: 0;
+  }
+
+ .page-nav .left{
+    margin: 2rem -1rem;
+  } 
+
+  .page-nav .right{
+    margin: 2rem 13rem;
+  } 
+
+  .page-nav a{
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+
+  @media screen and (min-width: 67.5em){
+
+    .content .col:nth-child(2) {
+      width: 56%;
+    }
+
+    .steps #step-1{
+      top: 23%;
+    }
+
+    .steps #step-2{
+      top: 31%;
+    }
+
+    .steps #step-3{
+      top: 39%;
+    }
+
+    .steps #step-4{
+      top: 47%;
+    }
+    .notes{  
+      margin: 85% 25px 25px;
+    }
+
+    .notes ul{
+      top: 10%;
+      z-index: 2; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ARTICLE TITLE PAGE */
+
+.card-container {
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+  }
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  .card .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  .card .back {
+    transform: rotateY(180deg);
+  }
+}
