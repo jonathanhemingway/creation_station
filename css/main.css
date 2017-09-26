@@ -261,7 +261,7 @@ color: #dddddd;
 }
 
 .content h1{
-  font-family: filson-soft, sans-serif;
+  font-family: 'Passion One', cursive;
   font-size: 1.7rem;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -270,7 +270,9 @@ color: #dddddd;
 }
 
 .content h2{
-  font-family: 'Passion One', cursive;
+  font-family: filson-soft, sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 1rem;
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.70)
